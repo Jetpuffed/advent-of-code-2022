@@ -20,4 +20,9 @@ fn main() {
     let day_four_input_one = get_input(4, 1).expect("Input is invalid");
     println!("{}", day_04::puzzle_one(day_four_input_one.clone()));
     println!("{}", day_04::puzzle_two(day_four_input_one)); // input hasn't changed
+
+    println!("\nDay Five:");
+    let day_five_input_one = get_input(5, 1).expect("Input is invalid");
+    println!("{}", day_05::puzzle_one(day_five_input_one.clone()));
+    println!("{}", day_05::puzzle_two(day_five_input_one)); // input hasn't changed
 }
